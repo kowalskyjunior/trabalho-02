@@ -1,0 +1,696 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.menu-mobile ul {
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    left: 0;
+    margin: 0 auto;
+}
+
+.menu-mobile li{
+    background-color: #458FF6;
+    padding: 1rem;
+    text-align: center;
+    transition: .5s;
+    color: #fff;
+    border: 1px solid #fff;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu-mobile li:hover{
+    background-color: #5a9cfa;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+.hamburger-icon{
+    display: none;
+}
+
+/* ESTILIZAÇÃO DO HEADER (INICIO)*/
+
+header {
+    padding: 2rem;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 2rem;
+    font-size: 18px;
+    color: #777777;
+    transition: .5s;
+    cursor: pointer;
+}
+
+header ul li:nth-child(1) {
+    font-weight: 700;
+    color: rgba(31, 21, 52, 1);
+    ;
+}
+
+header ul li:hover {
+    color: rgba(31, 21, 52, 1);
+}
+
+/* ESTILIZAÇÃO DO HEADER (FIM)*/
+
+/* ESTILIZAÇÃO DO HEALTHCARE SECTION (INICIO) */
+
+.healthcare-section {
+    margin: 1.5rem 0;
+}
+
+.healthcare-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    flex: 1;
+    margin-top: 6rem;
+}
+
+.left-side h2 {
+    font-size: 48px;
+    width: 450px;
+}
+
+.left-side p {
+    color: #7D7987;
+    font-size: 21px;
+    line-height: 32px;
+    width: 450px;
+    margin: 2rem 0;
+}
+
+.left-side button {
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    background-color: #458FF6;
+    text-decoration: none;
+    font-size: 18px;
+    height: 700;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: .5s;
+}
+
+.left-side button:hover {
+    background-color: #ffffff86;
+    color: #006aff;
+}
+
+.right-side {
+    flex: 1;
+}
+
+.right-side img {
+    width: 100%;
+    transition: .5s;
+}
+
+.right-side img:hover{
+    transform: scale(0.9) rotate(3deg);
+}
+
+/* ESTILIZAÇÃO DO HEALTHCARE SECTION (FIM) */
+
+/* ESTILIZAÇÃO DO OUR SERVICE SECTION (INICIO) */
+
+section.our-services-section {
+    margin-top: 9rem;
+    text-align: center;
+}
+
+.our-services-section h2 {
+    font-weight: 700;
+}
+
+.line {
+    width: 56px;
+    height: 2px;
+    background-color: #000;
+    margin: 1rem auto;
+    transition: 2s;
+}
+
+.our-services-section h2:hover+.line {
+    width: 20%;
+}
+
+.line-left {
+    width: 56px;
+    height: 2px;
+    margin: 1.5rem 0;
+    transition: 2s;
+    background-color: #000;
+}
+
+.our-services-section-p {
+    width: 100%;
+    max-width: 850px;
+    color: #7D7987;
+    margin: 2rem auto;
+}
+
+.card-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-single img {
+    width: 25%;
+}
+
+.card-single {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 30.3%;
+    height: 350px;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 100%;
+    transition: .5s;
+}
+
+.card-single:hover{
+    transform: scale(1.1);
+}
+
+.card-single h2 {
+    margin: 1rem 0;
+}
+
+.card-single p {
+    color: #7D7987;
+
+}
+
+.our-services-btn button {
+    width: 180px;
+    padding: 1rem;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    background-color: #fff;
+    color: #458FF6;
+    cursor: pointer;
+    margin: 3rem 0;
+    transition: .5s;
+}
+
+.our-services-btn button:hover {
+    background-color: #458FF6;
+    color: #fff;
+}
+
+/* ESTILIZAÇÃO DO OUR SERVICE SECTION (FIM) */
+
+/* ESTILIZAÇÃO DO FORM CONSULTA SECTION (INICIO) */
+
+.form-consulta-section h2 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.form-consulta-section h2:hover+.line {
+    width: 20%;
+}
+
+.consulta-wrapper {
+    background: rgb(103, 195, 243);
+    background: linear-gradient(180deg, rgba(103, 195, 243, 1) 0%, rgba(90, 152, 242, 1) 0%);
+    display: flex;
+}
+
+form {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.w50 {
+    width: 40%;
+
+}
+
+.input-single {
+    margin: 1rem;
+}
+
+form input:not([type="submit"]) {
+    width: 100%;
+    height: 60px;
+    padding-left: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+}
+
+label {
+    display: flex;
+    margin: .5rem 0;
+    color: #fff;
+}
+
+.form-btn {
+    width: 200px;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #5a9cfa;
+    color: #fff;
+    border-radius: 2rem;
+    border: 1.4px solid #fff;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.form-btn:hover {
+    background-color: #fff;
+    color: #5a9cfa;
+
+}
+
+/* ESTILIZAÇÃO DO LEADING SECTION (INICIO)*/
+
+section.leading-section {
+    margin: 4rem 0;
+}
+
+.leading-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.leading-image {
+    width: 100%;
+}
+
+.leading-image img {
+    max-width: 500px;
+    width: 100%;
+    transition: .5s;
+}
+
+.leading-image img:hover{
+    transform: scale(0.9) rotate(3deg);
+}
+
+.leading-text {
+    width: 100%;
+    padding: 5rem;
+}
+
+.leading-text h2 {
+    max-width: 400px;
+    font-size: 36px;
+}
+
+.leading-text h2:hover+.line-left {
+    width: 20%;
+}
+
+.leading-text p {
+    color: #7D7987;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.leading-btn {
+    width: 200px;
+    height: 60px;
+    border: 1.4px solid #458FF6;
+    background-color: #fff;
+    margin: 2rem 0;
+    cursor: pointer;
+    color: #458FF6;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 55px;
+    transition: .5s;
+}
+
+.leading-btn:hover {
+    background-color: #458FF6;
+    color: #fff;
+}
+
+
+/* ESTILIZAÇÃO DO LEADING SECTION (FIM)*/
+/* ESTILIZAÇAÕ DO FOOTER (INICIO) */
+
+footer {
+    background: rgb(103, 195, 243);
+    background: linear-gradient(180deg, rgba(103, 195, 243, 1) 0%, rgba(90, 152, 242, 1) 0%);
+    padding: 5rem;
+}
+
+.logo-title {
+    display: flex;
+}
+
+.t {
+    background-color: #fff;
+    color: #458FF6;
+    width: 41px;
+    text-align: center;
+    line-height: 41px;
+    height: 41px;
+    border-radius: 50%;
+}
+
+.trafalgar {
+    margin-left: .5rem;
+    line-height: 41px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-p {
+    font-size: 18px;
+    width: 377px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 1rem 0;
+}
+
+.footer-copyrigth {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 2.5rem;
+}
+
+.footer-single h2 {
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    line-height: 60px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer-single li {
+    font-weight: 300;
+    color: #fff;
+    font-size: 18px;
+    list-style: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: .5s;
+}
+
+.footer-single li:hover{
+    background-color: #fff;
+    color: #006aff;
+    text-decoration: underline;
+}
+/* ESTILIZAÇÃO DO FOOTER (FIM) */
+
+@media (max-width:768px) {
+    header nav {
+        display: none;
+    }
+
+    .header-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    header .logo {
+        margin: -20px;
+    }
+
+    .hamburger-icon{
+        display: block;
+    }
+
+    .hamburger-icon img {
+        width: 30px;
+        right: 30px;
+        top: 20px;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    .healthcare-section {
+        text-align: left;
+
+    }
+
+    .left-side h2 {
+        font-size: 46px;
+        max-width: 450px;
+        width: 100%;
+    }
+
+    .left-side p {
+        color: #7D7987;
+        font-size: 21px;
+        line-height: 32px;
+        max-width: 450px;
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .healthcare-section {
+        margin: -2rem 0;
+    }
+
+    .healthcare-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .left-side {
+        width: 100%;
+        margin: 5rem auto;
+    }
+
+    .right-side img {
+        max-width: 550px;
+        width: 100%;
+    }
+
+    section.our-services-section {
+        margin-top: 9rem;
+        text-align: center;
+    }
+
+    .line {
+        width: 56px;
+        height: 2px;
+        background-color: #000;
+        margin: 1rem auto;
+    }
+
+    .line-left {
+        width: 56px;
+        height: 2px;
+        margin: 1.5rem 0;
+        background-color: #000;
+    }
+
+    .our-services-section-p {
+        width: 100%;
+        max-width: 850px;
+        color: #7D7987;
+        margin: 2rem auto;
+    }
+
+    .card-single img {
+        width: 20%;
+        margin: 0 auto;
+    }
+
+    .card-single {
+        display: flex;
+        flex-wrap: wrap;
+        margin: .5rem;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 100%;
+        padding: 2rem;
+        border-radius: 1rem;
+        background-color: #fff;
+        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 100%;
+    }
+
+    .card-single:hover{
+        transform: scale(0.9);
+    }
+
+    .w50 {
+        width: 100%;
+    }
+
+    section.leading-section {
+        margin-top: 3rem;
+    }
+
+    .leading-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leading-image {
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+    .leading-text {
+        text-align: center;
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .line-left {
+        margin: 2rem auto;
+    }
+
+    .leading-text h2 {
+        text-align: center;
+        width: 100%;
+        max-width: 650px;
+        font-size: 35px;
+    }
+
+    .leading-text p {
+        color: #7D7987;
+        line-height: 30px;
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .leading-btn {
+        width: 200px;
+        height: 60px;
+        border: 1.4px solid #458FF6;
+        margin-top: 2rem;
+        cursor: pointer;
+        color: #458FF6;
+        font-weight: 700;
+        font-size: 18px;
+        border-radius: 55px;
+    }
+
+    footer {
+        background: rgb(103, 195, 243);
+        background: linear-gradient(180deg, rgba(103, 195, 243, 1) 0%, rgba(90, 152, 242, 1) 0%);
+        padding: 5rem;
+    }
+
+    .logo-title {
+        display: flex;
+        margin-top: 5rem;
+        justify-content: center;
+    }
+
+    .logo-single {
+        text-align: center;
+    }
+
+    .t {
+        background-color: #fff;
+        color: #458FF6;
+        width: 41px;
+        text-align: center;
+        line-height: 41px;
+        height: 41px;
+        border-radius: 50%;
+    }
+
+    .trafalgar {
+        margin-left: .5rem;
+        line-height: 41px;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .footer-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .footer-p {
+        font-size: 18px;
+        max-width: 500px;
+        width: 100%;
+        color: #fff;
+        font-weight: 300;
+        line-height: 28px;
+        margin: 1rem 0;
+    }
+
+    .footer-copyrigth {
+        color: #fff;
+        font-size: 12px;
+        margin-top: 2.5rem;
+    }
+
+    .footer-single h2 {
+        color: #fff;
+        font-family: "Nunito", sans-serif;
+        line-height: 60px;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    
+    .footer-single li {
+        text-align: center;
+        font-weight: 300;
+        color: #fff;
+        font-size: 18px;
+        list-style: none;
+        cursor: pointer;
+        margin-bottom: 1rem;
+        transition: .5s;
+    }
+
+}
